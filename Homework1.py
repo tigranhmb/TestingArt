@@ -1,3 +1,4 @@
-name = 'Tigran'
+name = 'tigran'
 lastname = 'Hambardzumyan'
-print(name, lastname)
+test123= name.capitalize()
+print(test123, lastname)
