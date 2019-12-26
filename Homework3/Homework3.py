@@ -11,7 +11,7 @@ with open('text.txt', 'r') as f:
     d = {}
     for word in word_list:
         if word not in d:
-            d[word]=0
+            d[word]=1
         else:
             d[word]+=1
         #d[word]=d.get(word, 0) + 1
